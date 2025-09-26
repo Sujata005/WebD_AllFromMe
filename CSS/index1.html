@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        div{
+            color: rgb(245, 191, 191);
+            background-color: rgb(126, 189, 126);
+            font-size: xx-large;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="day1.css">
+    <title>CSS</title>
+</head>
+<body>
+  <section class="default-example" id="default-example">
+  <div class="transition-all" id="example-element">
+    <p>This is a box with a border around it.</p>
+  </div>
+</section>
+<ul>
+  <li>One</li>
+  <li>Two!</li>
+  <li>Three</li>
+</ul>
+<div>
+  <span>
+    Span #1, in the div.
+    <span>Span #2, in the span thats in the div.</span>
+  </span>
+</div>
+<span>Span #3, not in the div at all.</span>
+
+<article>
+  <span>This is not red because it appears before any paragraph.</span>
+  <p>Here is a paragraph.</p>
+  <code>Here is some code.</code>
+  <span>
+    This span is red because it appears after the paragraph, even though there
+    are other nodes in between.
+  </span>
+  <p>Whatever it may be, keep smiling.</p>
+  <h1>Dream big</h1>
+  <span>
+    Doesn't matter how many or what kind of nodes are in between, all spans from
+    the same parent after a paragraph are red.
+  </span>
+</article>
+<span>
+  This span is not red because it doesn't share a parent with a paragraph.
+</span>
+<ul>
+  <li>
+    <div>Item 1</div>
+    <ul>
+      <li>Subitem A</li>
+      <li>Subitem B</li>
+    </ul>
+  </li>
+  <li>
+    <div>Item 2</div>
+    <ul>
+      <li>Subitem A</li>
+      <li>Subitem B</li>
+    </ul>
+  </li>
+</ul>
+<p>This paragraph <a href="#">has a link</a>.</p>
+
+<svg width="400" viewBox="0 0 400 20">
+  <a href="#">
+    <text x="0" y="15">Link created in SVG</text>
+  </a>
+</svg>
+<section id="default-example">
+  <p id="example-element">
+    London. Michaelmas term lately over, and the Lord Chancellor sitting in
+    Lincoln's Inn Hall. Implacable November weather. As much mud in the streets
+    as if the waters had but newly retired from the face of the earth, and it
+    would not be wonderful to meet a Megalosaurus, forty feet long or so,
+    waddling like an elephantine lizard up Holborn Hill.
+  </p>
+</section>
+<section id="default-example">
+  <div class="example-container">
+    <p id="example-element">
+      London. Michaelmas term lately over, and the Lord Chancellor sitting in
+      Lincoln's Inn Hall. Implacable November weather.
+    </p>
+  </div>
+</section>
+
+</body>
+</html>
