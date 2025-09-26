@@ -14,3 +14,10 @@
 
 
 ## CSS
+- Types of CSS
+- CSS Selector
+- Box Model
+- Fonts & Color
+- Display Property & Positions
+- Flex Box
+- Grid & Transformations
