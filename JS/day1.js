@@ -72,3 +72,5 @@ console.log(true || false); // true
 let n = 5;
 console.log(++n); // 6
 console.log(typeof n); // number
+
+
