@@ -130,3 +130,4 @@ for (let [key, value] of Object.entries(fullCar)) {
   console.log(`${key} → ${value}`);
 }
 
+
